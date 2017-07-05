@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header ul li {
+  display: inline-block;
+  list-style: none;
+  float: right;
+  text-align: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  font-size: 0.8em;
+}
+
+#connexion {
+  background: #4285f4;
+  color: white;
+  padding: 7px 11px;
+  margin-top: 15px;
+}
+
+.Search {
+  text-align: center;
+  position: absolute;
+  margin-top: 240px;
+}
+
+#France {
+  color: #4285f4;
+  display: inline;
+  position: relative;
+  left: -62px;
+  top: -4px;
+}
+
+.hello {
+  border: 1px none grey;
+  padding: 10px 20px;
+  font-size: 12px;
+  background: #F2F2F2;
+  margin-top: 30px;
+  color: #34495e;
+}
+
+footer {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 13px;
+  background-color: #F2F2F2;
+  font-size: 12px;
+  border-top: 1px solid #e4e4e4;
+  color: #34495e;
+}
+
+li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.left {
+  position: absolute;
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+input {
+  padding-left: 140px;
+  padding-right: 140px;
+  padding-bottom: 10px;
+}
